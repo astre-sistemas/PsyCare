@@ -45,16 +45,16 @@
         }
 
         .glassy {
-            backdrop-filter: blur(12px);
-            -webkit-backdrop-filter: blur(12px);
-            background: rgba(255, 255, 255, 0.65);
+            background: rgba(255, 255, 255, 0.42);
+            box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+            backdrop-filter: blur(8.6px);
+            -webkit-backdrop-filter: blur(8.6px);
         }
 
         .glassy-white {
             backdrop-filter: blur(18px);
             -webkit-backdrop-filter: blur(18px);
             background: rgba(255, 255, 255, 0.12);
-            border: 1px solid rgba(255, 255, 255, 0.25);
         }
 
         .menu-link {
@@ -75,7 +75,6 @@
         .btn-primary:hover {
             background: var(--primary-dark);
         }
-        
     </style>
 
     @vite(['resources/css/app.css', 'resources/js/app.js'])

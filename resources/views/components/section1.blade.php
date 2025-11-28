@@ -68,7 +68,7 @@
     <div id="vanta-bg" class="absolute inset-0 -z-10 opacity-0 transition-opacity duration-[1200ms]"></div>
 
     <!-- Badge Glassy -->
-    <div class="glassy shine-badge px-6 py-2 rounded-full mb-8 text-yellow-800 text-sm shadow-lg flex items-center gap-2 relative overflow-hidden backdrop-blur-xl opacity-0 transition-opacity duration-[900ms]"
+    <div class="glassy- shine-badge px-6 py-2 rounded-full mb-8 text-yellow-800 text-sm shadow-lg flex items-center gap-2 relative overflow-hidden backdrop-blur-xl opacity-0 transition-opacity duration-[900ms]"
         style="background: linear-gradient(90deg, #d4af37cc, #f1c94acc, #d4af37cc);">
         <span class="material-icons-round text-yellow-800 text-base">verified</span>
         Qualidade
@@ -172,4 +172,5 @@
             }, betweenDelay);
         }, bgDelay);
     })();
+    
 </script>

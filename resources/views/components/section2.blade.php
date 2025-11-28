@@ -60,7 +60,7 @@
             <div class="flex flex-col gap-6">
 
                 <!-- Card 1 -->
-                <div class="bg-white rounded-2xl p-6 shadow-md flex items-start gap-4">
+                <div class="bg-white rounded-2xl p-6 shadow-md flex items-start gap-4 glassy">
                     <div class="w-12 h-12 rounded-xl flex items-center justify-center"
                          style="background:#ff4fa5;">
                         <span class="material-icons-round text-white text-2xl">shield</span>
