@@ -1,4 +1,5 @@
-<header id="main-header" class="glassy fixed top-0 left-0 w-full z-50">
+<header id="main-header"
+    class="glassy fixed top-0 left-0 w-full z-50 opacity-0 transition-opacity duration-700">
     <div class="mx-auto max-w-7xl px-6 lg:px-8">
         <div class="flex h-20 items-center justify-between">
 
