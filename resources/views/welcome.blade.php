@@ -85,8 +85,12 @@
     @include('components.header')
 
     @include('components.section1')
+    @include('components.video-lp')
     @include('components.section2')
     @include('components.section3')
+    
+    @include('components.plans')
+     @include('components.end-lp')
     @include('components.footer')
 
 </body>

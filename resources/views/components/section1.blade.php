@@ -96,7 +96,7 @@
         </a>
 
         <!-- Botão secundário (glassy branco) -->
-        <a href="#section2" class="px-8 py-4 text-lg rounded-xl font-semibold border glassy-white text-white/90 shadow-xl 
+        <a href="#video-section" class="px-8 py-4 text-lg rounded-xl font-semibold border glassy-white text-white/90 shadow-xl 
            transition flex items-center gap-2 hover:bg-white/20 backdrop-blur-md">
             Ver Mais
             <span class="text-2xl leading-none">↓</span>
