@@ -1,4 +1,4 @@
-<section id="plans" class="relative py-28 px-6 overflow-hidden">
+<section id="plans" class="relative py-28 px-6 overflow-hidden min-h-screen">
 
     <!-- Fundo Vanta -->
     <div id="vanta-plans" class="absolute inset-0 -z-10 opacity-0 transition-opacity duration-[1200ms]"></div>

@@ -1,4 +1,4 @@
-<section id="section2" class="py-24 px-6 md:px-12">
+<section id="section2" class="py-24 px-6 md:px-12 min-h-screen content-center">
 
     <!-- Container principal -->
     <div class="max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-2 gap-16 items-center">

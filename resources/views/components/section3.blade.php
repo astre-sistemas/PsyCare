@@ -1,4 +1,4 @@
-<section id="section3" class="py-24 bg-[#F0FFF4]">
+<section id="section3" class="py-24 bg-[#F0FFF4] min-h-screen content-center">
     <div class="max-w-6xl mx-auto px-6 text-center">
 
         <!-- Badgezinho -->

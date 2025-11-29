@@ -51,6 +51,79 @@
             -webkit-backdrop-filter: blur(8.6px);
         }
 
+        .glass-card {
+            width: 240px;
+            height: 360px;
+            background: rgba(255, 255, 255, 0.15);
+            backdrop-filter: blur(20px);
+            -webkit-backdrop-filter: blur(20px);
+            border-radius: 20px;
+            border: 1px solid rgba(255, 255, 255, 0.3);
+            box-shadow:
+                0 8px 32px rgba(0, 0, 0, 0.1),
+                inset 0 1px 0 rgba(255, 255, 255, 0.5),
+                inset 0 -1px 0 rgba(255, 255, 255, 0.1),
+                inset 0 0 20px 10px rgba(255, 255, 255, 1);
+            position: relative;
+            overflow: hidden;
+        }
+
+        .glass-card::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            height: 1px;
+            background: linear-gradient(90deg,
+                    transparent,
+                    rgba(255, 255, 255, 0.8),
+                    transparent);
+        }
+
+        .glass-card {
+            width: 240px;
+            height: 360px;
+            background: rgba(255, 255, 255, 0.1);
+            backdrop-filter: blur(20px);
+            -webkit-backdrop-filter: blur(20px);
+            border-radius: 20px;
+            border: 1px solid rgba(255, 255, 255, 0.3);
+            box-shadow:
+                0 8px 32px rgba(0, 0, 0, 0.1),
+                inset 0 1px 0 rgba(255, 255, 255, 0.5),
+                inset 0 -1px 0 rgba(255, 255, 255, 0.1),
+                inset 0 0 4px 2px rgba(255, 255, 255, 0.2);
+            position: relative;
+            overflow: hidden;
+        }
+
+        .glass-card::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            height: 1px;
+            background: linear-gradient(90deg,
+                    transparent,
+                    rgba(255, 255, 255, 0.8),
+                    transparent);
+        }
+
+        .glass-card {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 1px;
+            height: 100%;
+            background: linear-gradient(180deg,
+                    rgba(255, 255, 255, 0.8),
+                    transparent,
+                    rgba(255, 255, 255, 0.3));
+        }
+
         .glassy-white {
             backdrop-filter: blur(18px);
             -webkit-backdrop-filter: blur(18px);
@@ -88,9 +161,9 @@
     @include('components.video-lp')
     @include('components.section2')
     @include('components.section3')
-    
+
     @include('components.plans')
-     @include('components.end-lp')
+    @include('components.end-lp')
     @include('components.footer')
 
 </body>

@@ -1,5 +1,5 @@
 <section id="thank-you"
-    class="relative min-h-[60vh] flex flex-col items-center justify-center px-6 py-20 bg-white text-center">
+    class="relative min-h-[60vh] flex flex-col items-center justify-center px-6 py-20 bg-white text-center min-h-screen content-center">
 
     <h2 class="text-4xl md:text-5xl font-bold text-gray-800">
         Muito Obrigado!
